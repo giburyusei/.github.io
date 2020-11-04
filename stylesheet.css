@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgba(12, 11, 11,0.8);
+    width:100%;
+    height: 65px;
+}
+.headers h2{
+    color: white;
+    float: left;
+}
+span{
+    color: blue;
+}
+.headers a{
+    background-color:rgba(255, 255, 255, 0.3);
+    float:right;
+    line-height: 65px;
+    padding: 0 25px;
+    display: block;
+    color: white;
+    transition: all 0.5s;
+
+}
+.headrs a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.top-wraiper{
+    height: 600px;
+    padding-top: 200px;
+    background-image: url(https://www.pakutaso.com/shared/img/thumb/mizsuho170920000.jpg) ;
+    background-size: cover;
+    
+}
+.top-wraipertop{
+    color: white;
+}
+.top-wraiper{
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    opacity: 0.8;
+}
+.btn:hover{
+    opacity: 1;
+}
+.singroup{
+    background-color: rgb(34, 107, 107);
+    margin: 20px 0;
+}
+.Twitter{
+    background-color:rgb(42, 51, 179) ;
+    margin-right: 20px;
+}
+.facebook{
+    background-color: rgb(97, 49, 160);
+    
+}
+.main{
+    background-color: darkgray;
+    height: 500px;
+    
+}
+.main-top{
+    text-align: center;
+}
+.main-top h2{
+    font-size: 24px;
+    margin-top: 90px;
+    margin-bottom:90px;
+}
+.main-main{
+    float: left;
+    width: 25%;
+}
+.main-maintop{
+    position: relative;
+}
+.a{
+    position: absolute;
+    top:75px;
+    width: 100%;
+    z-index: 5;
+    
+    
+
+   
+}
+.b{
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+}
